@@ -43,7 +43,7 @@ const About = () => {
       </motion.div>
       <div className="mt-10 flex flex-wrap gap-10 flex justify-evenly items-center">
         <img
-          src="./public/avatar.png"
+          src="/avatar.png"
           alt=""
           className="w-[30%] h-[30%] object-contain"
         />
