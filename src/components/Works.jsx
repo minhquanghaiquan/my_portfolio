@@ -80,11 +80,10 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          Following projects showcases my skills and experience through
-          real-world examples of my work. Each project is briefly described with
-          links to code repositories and live demos in it. It reflects my
-          ability to solve complex problems, work with different technologies,
-          and manage projects effectively.
+         Các dự án sau đây thể hiện kỹ năng và kinh nghiệm của tôi.
+         Mỗi dự án được mô tả ngắn gọn với các liên kết đến mã nguồn và các bản demo.
+         Qua đó phản ánh khả năng của tôi trong việc giải quyết các vấn đề phức tạp, 
+         làm việc với các công nghệ khác nhau và quản lý dự án một cách hiệu quả.
         </motion.p>
       </div>
 
@@ -92,7 +91,12 @@ const Works = () => {
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
+        
       </div>
+
+      <div class="video-container">
+    <iframe width="1131" height="636" src="https://www.youtube.com/embed/jOG8BTx3EfM?si=1kuBTXOCMUWrF5rD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
     </>
   );
 };
